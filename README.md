@@ -1,4 +1,4 @@
-# Algorithm/n
+# Algorithm
 
-アルゴリズムの練習です。
+アルゴリズムの練習です。\n
 言語：C
