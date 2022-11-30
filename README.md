@@ -9,5 +9,7 @@
 .CPP 파일은 코드
 .JPG 파일은 결과 파일입니다.
 
+.CPP ファイルはコードであり、
+.JPG ファイルは結果です。
 .CPP file is code
 .JPG file is code result
