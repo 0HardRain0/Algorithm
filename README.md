@@ -11,5 +11,6 @@
 
 .CPP ファイルはコードであり、
 .JPG ファイルは結果です。
+
 .CPP file is code
 .JPG file is code result
