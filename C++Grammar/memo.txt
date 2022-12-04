@@ -28,3 +28,18 @@ Inheritable
 
 <cstdio> : FILE* 같은 경우 상속이 불가능함 
 [출처] [C++] cout과 printf의 차이 정리|작성자 오늘
+
+
+cin >>
+<iostream>에 포함되어 있다.
+표준 입력 버퍼에서 개행 문자를 제외한 값을 가져온다.
+공백이나 개행 입력 시 공백 이전까지의 값만 결과로 받아들인다.
+개행 문자를 입력 버퍼에 남겨둔다.
+
+
+getline()함수는 두 가지가 존재하는데 각가 다른 라이브러리에 존재한다. istream 라이브러리에 속한 cin.getline()함수와 string 라이브러리에 속하는 getline()함수가 있다.
+istream 라이브러리의 cin.getline()
+문자 배열이며 마지막 글자가 ‘\0’(terminator)인 c-string을 입력 받는데 사용
+n-1개의 문자 개수만큼 읽어와 str에 저장 (n번째 문자는 NULL(‘\0’)로 바꾼다.)
+세 번째 인자인 delim은 별도로 지정해주지 않으면 엔터(‘\n’)로 인식
+delim을 지정해주면 그 제한자(delim)문자 직전까지 읽어서 str에 저장
