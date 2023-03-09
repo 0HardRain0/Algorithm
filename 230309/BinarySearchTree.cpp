@@ -1,9 +1,8 @@
-// ���� �޸𸮻󿡼��� Ʈ�� ǥ��
+// 이진탐색트리 대략적인 코드
 #include<iostream>
 #include<string.h>
 
 
-//����ü
 struct tnode {
 	struct tnode* left;
 	char name[12];
