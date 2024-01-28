@@ -12,17 +12,14 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
         int A = Integer.parseInt(st.nextToken());
+        int B = Integer.parseInt(st.nextToken());
 
-        if ( A >= 90) {
-            System.out.println("A");
-        } else if(79 < A){
-            System.out.println("B");
-        } else if (69 < A) {
-            System.out.println("C");
-        } else if (59 < A) {
-            System.out.println("D");
-        } else {
-            System.out.println("F");
+        if ( A > B) {
+            System.out.println(">");
+        } else if( A < B){
+            System.out.println("<");
+        } else if (A == B) {
+            System.out.println("==");
         }
     }
 }
